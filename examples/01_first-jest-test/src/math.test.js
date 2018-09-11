@@ -1,4 +1,4 @@
-const { sum, mul, sub, div } = require("./math")
+const { sum, mul, sub, div, concat } = require("./math")
 
 test("Adding 1 + 1 equals 2", () => {
   expect(sum(1, 1)).toBe(2)
@@ -11,4 +11,7 @@ test("Subtracting 1 - 1 equals 0", () => {
 })
 test("Dividing 1 / 1 equals 1", () => {
   expect(div(1, 1)).toBe(1)
+})
+test("Concat two strings", () => {
+  expect(concat("string 1 ", "string 2 ")).toBe("string 1 string 2 ")
 })
