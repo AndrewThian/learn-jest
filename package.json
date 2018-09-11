@@ -1,0 +1,14 @@
+{
+  "name": "learn-jest",
+  "version": "1.0.0",
+  "description": "A good [article](https://flaviocopes.com/jest/#introduction-to-jest) about the introduction into jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
