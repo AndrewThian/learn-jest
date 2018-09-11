@@ -1,0 +1,16 @@
+{
+  "name": "04_testing-async-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest src",
+    "coverage": "jest --collectCoverageFrom=src/**.js --coverageDirectory=./src/coverage --coverage src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^23.6.0"
+  }
+}

@@ -1,14 +1,14 @@
 {
-  "name": "learn-jest",
+  "name": "01_first-jest-test",
   "version": "1.0.0",
-  "description": "A good [article](https://flaviocopes.com/jest/#introduction-to-jest) about the introduction into jest",
+  "description": "Jest is an open source project maintained by Facebook. Primarily, its strength lies in testing React code althought not limited to that. It can test any javascript code. Here are it's core competencies:",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "jest": "^23.6.0"
   }
 }
